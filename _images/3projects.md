@@ -1,5 +1,5 @@
 ---
 title: Tech Projects
-caption: Click the link to interact with my most recent tech project.
+caption: To interact with my most recent tech project, click
 weblink: https://jwhitad15.github.io/Unit1-FinalProject-FOTHS-Joshua-W/
 ---

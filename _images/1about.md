@@ -1,9 +1,9 @@
 ---
 
 title: About me
-caption: 
+caption: Visit my LinkedIn
 description: 
-weblink: 
+weblink: https://www.linkedin.com/in/joshua-white-92225536b/
 
 
 
