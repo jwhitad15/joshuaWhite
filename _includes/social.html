@@ -2,11 +2,11 @@
 
 
 <section>
-  <h2>Connect me on ...</h2>
+  <h2>Connect with me on ...</h2>
   <ul class="icons">
-    {%- if social.github -%}<li><a href="https://github.com/{{ social.github | cgi_escape | escape }}" class="icon brands fa-github"><span class="label">GitHub</span></a></li>{%- endif -%}
-    {%- if social.linkedin -%}<li><a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>{%- endif -%}
-    {%- if social.youtube -%}<li><a href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape }}" title="{{ social.youtube | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a></li>{%- endif -%}
+    {%- if social.github -%}<li><a href="https://github.com/{{ social.github | cgi_escape | escape }}" ><span class="label">GitHub</span></a></li>{%- endif -%}
+    {%- if social.linkedin -%}<li><a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}" ><span class="label">LinkedIn</span></a></li>{%- endif -%}
+    {%- if social.youtube -%}<li><a href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape }}" title="{{ social.youtube | escape }}"><svg ><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a></li>{%- endif -%}
   </ul>
 </section>
 
